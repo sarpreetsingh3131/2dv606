@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="@string/my_countries_preference_fragment_default_background"
+        android:entries="@array/my_countries_preference_fragment_backgrounds_list"
+        android:entryValues="@array/my_countries_preference_fragment_backgrounds_list"
+        android:key="background"
+        android:summary="@string/my_countries_preference_fragment_background_summary"
+        android:title="@string/my_countries_preference_fragment_background_title" />
+
+    <ListPreference
+        android:defaultValue="@string/my_countries_preference_fragment_default_font_size"
+        android:entries="@array/my_countries_preference_fragment_font_sizes_list"
+        android:entryValues="@array/my_countries_preference_fragment_font_sizes_list"
+        android:key="fontSize"
+        android:summary="@string/my_countries_preference_fragment_font_size_summary"
+        android:title="@string/my_countries_preference_fragment_font_size_title" />
+
+    <ListPreference
+        android:defaultValue="@string/my_countries_preference_fragment_default_font_style"
+        android:entries="@array/my_countries_preference_fragment_font_style_list"
+        android:entryValues="@array/my_countries_preference_fragment_font_style_list"
+        android:key="fontStyle"
+        android:summary="@string/my_countries_preference_fragment_font_style_summary"
+        android:title="@string/my_countries_preference_fragment_font_style_title" />
+</PreferenceScreen>

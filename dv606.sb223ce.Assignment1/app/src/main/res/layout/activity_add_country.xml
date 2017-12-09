@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dv606.sb223ce.assignment1.AddCountryActivity">
+
+    <Spinner
+        android:id="@+id/addCountryYearSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:entries="@array/add_country_years_list"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:id="@+id/addCountryCountrySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:entries="@array/add_country_countries_list"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/addCountryAddBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/add_country_add_btn_title" />
+</LinearLayout>

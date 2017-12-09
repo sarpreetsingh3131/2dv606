@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dv606.sb223ce.assignment2.AlarmClockActivity">
+
+    <TextView
+        android:id="@+id/alarmClockTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="end"
+        android:text="5:50:12"
+        android:textSize="20dp" />
+
+
+    <Spinner
+        android:id="@+id/alarmClockHourSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"
+        android:entries="@array/alarm_clock_hours_list"
+        android:gravity="center" />
+
+    <Spinner
+        android:id="@+id/alarmClockMinSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/alarm_clock_minutes_list"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/alarmClockSetAlarmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/alarm_clock_set_alarm_btn_title" />
+
+    <Button
+        android:id="@+id/alarmClockCancelAlarmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/alarm_clock_cancel_alarm_btn_title" />
+
+</LinearLayout>

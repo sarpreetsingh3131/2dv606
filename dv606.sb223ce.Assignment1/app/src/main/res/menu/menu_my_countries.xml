@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dv606.sb223ce.assignment1.MyCountriesActivity">
+
+    <item
+        android:id="@+id/myCountriesAddCountryItem"
+        android:title="@string/my_countries_menu_item_title"
+        android:showAsAction="always" />
+</menu>

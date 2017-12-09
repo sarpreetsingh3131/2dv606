@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="dv606.sb223ce.assignment1.BMIActivity">
+
+    <EditText
+        android:id="@+id/bmiHeightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/bmi_height_placeholder"
+        android:inputType="numberDecimal"
+        android:maxLength="4" />
+
+    <EditText
+        android:id="@+id/bmiWeightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/bmi_weight_placeholder"
+        android:inputType="numberDecimal"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/bmiComputeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/bmi_compute_btn_title" />
+
+    <Button
+        android:id="@+id/bmiResetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/bmi_reset_btn_title" />
+
+    <TextView
+        android:id="@+id/bmiTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="30sp" />
+
+</LinearLayout>

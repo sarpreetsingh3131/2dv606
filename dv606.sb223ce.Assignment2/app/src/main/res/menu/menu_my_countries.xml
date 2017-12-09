@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dv606.sb223ce.assignment1.MyCountriesActivity">
+
+    <group>
+        <item
+            android:id="@+id/myCountriesAddCountryItem"
+            android:title="@string/my_countries_menu_item_add_country"
+            android:showAsAction="always" />
+
+        <item
+            android:id="@+id/myCountriesByYearASCItem"
+            android:title="@string/my_countries_menu_item_by_year_asc"
+            android:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/myCountriesByYearDESCItem"
+            android:title="@string/my_countries_menu_item_by_year_desc"
+            android:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/myCountriesByCountryASCItem"
+            android:title="@string/my_countries_menu_item_by_country_asc"
+            android:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/myCountriesByCountryDESCItem"
+            android:title="@string/my_countries_menu_item_by_country_desc"
+            android:showAsAction="collapseActionView" />
+    </group>
+</menu>
