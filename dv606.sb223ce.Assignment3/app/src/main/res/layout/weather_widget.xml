@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weatherWidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09C"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/weatherWidgetRefreshBtn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:background="@mipmap/ic_refresh" />
+
+
+    <TextView
+        android:id="@+id/weatherWidgetCityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#09C"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/weatherWidgetImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/weatherWidgetTempTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#09C"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+
+</LinearLayout>

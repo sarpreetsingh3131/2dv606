@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+
+    <string name="weather_title">Weather</string>
+    <string name="weather_date">Date</string>
+    <string name="weather_time">Time</string>
+    <string name="weather_temp">Temp</string>
+    <string name="weather_wind">Wind</string>
+    <string name="weather_rain">Rain</string>
+    <string name="weather_weather">Weather</string>
+
+    <string name="weather_widget_config_title">Weather Configuration</string>
+
+    <string name="weather_widget_title">Weather Widget</string>
+
+    <string name="incoming_call_history_title">Incoming Call History</string>
+
+    <string name="city_map_title">City Map</string>
+
+    <string name="road_map_title">Road Map</string>
+    <string name="road_map_vax_to_stk">Vaxjo To Stockholm</string>
+    <string name="road_map_vax_to_cph">Vaxjo To Copenhagen</string>
+    <string name="road_map_vax_to_ods">Vaxjo To Odessa</string>
+
+
+</resources>
