@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@mipmap/search"
+        android:showAsAction="always"
+        android:title="" />
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@mipmap/refresh"
+        android:showAsAction="always"
+        android:title="" />
+
+    <item
+        android:id="@+id/subscription"
+        android:icon="@mipmap/settings"
+        android:showAsAction="always"
+        android:title="" />
+
+    <group>
+
+        <item
+            android:id="@+id/topNews"
+            android:icon="@mipmap/refresh"
+            android:showAsAction="collapseActionView"
+            android:title="Top News" />
+        <item
+            android:id="@+id/latestNews"
+            android:icon="@mipmap/refresh"
+            android:showAsAction="collapseActionView"
+            android:title="Latest News" />
+
+        <item
+            android:id="@+id/popularNews"
+            android:icon="@mipmap/refresh"
+            android:showAsAction="collapseActionView"
+            android:title="Popular News" />
+    </group>
+</menu>
